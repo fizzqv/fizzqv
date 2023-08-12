@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lightcyan
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: darkgrey;
+}
+
+.nav ul li{
+  display: inline-block;
+  line-height: 45px;
+}
+
+.nav ul li a{
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav ul li a hover{
+  color: black;
+}
+
+.container{
+  width: 968px;
+  margin: 50px auto;
+  background-color: #fff;
+}
+
+.header{
+  padding: 50px;
+}
+
+.header p{
+  margin-top: 10px;
+}
+
+.logo{
+  height: 950px;
+  background-image: url(logo.jpg);
+  background-size: cover;
+}
+
+h2{
+  text-align: center;
+}
+
+hr{
+  width: 300px;
+  border-top: 3px solid lightblue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.paragraf{
+  padding: 50px;
+  background-color: #fff;
+}
+
+.paragraf p{
+  margin-bottom: 10px;
+}
+
+.welcome{
+  height: 290px;
+  background-image: url(welcome.jpg);
+  background-size: cover;
+}
+
+h3{
+  text-align: center;
+}
+
+hr{
+  width: 400px;
+  border-top: 3px solid lightblue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.strukturK{
+  padding: 30px;
+}
+
+.struktur p{
+  margin-bottom: 10px;
+}
+
+.struktur{
+  height: 1260px;
+  background-image: url(struktur.jpg);
+  background-size: cover;
+}
